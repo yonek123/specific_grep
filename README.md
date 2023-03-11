@@ -3,7 +3,7 @@
 The program has one obligatory parameter which is <pattern (a string)> and can have four optional parameters (if user does not specify then default values are used).
 
 
-## Making and running program
+### Making and running program
 
 To make the program use:
     make -f Makefile
@@ -18,6 +18,6 @@ Options:
     -t or --threads - number of threads in the pool; Default: 4
 
 
-## Changelog
+### Changelog
 
 V1 - Receiving and processing parameters

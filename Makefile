@@ -4,4 +4,4 @@ out:
 	mkdir out
 
 out/specific_grep.out: src/main.cpp
-	gcc -o out/specific_grep.out -fopenmp src/main.cpp -lstdc++
+	gcc -o out/specific_grep.out -fopenmp src/main.cpp -lstdc++ -std=gnu++17

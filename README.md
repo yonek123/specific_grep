@@ -24,3 +24,6 @@ Options:
 V1 - Receiving and processing parameters
 
 V2 - Get current directory, console output, information on console how to use program, recursive file search
+
+V3 - Searching for pattern in files and lines, sort files by how many pattern occurrences they have, save data to result file; tl;dr everything except threads and log
+

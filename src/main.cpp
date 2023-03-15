@@ -245,8 +245,11 @@ int main(int argc, char *argv[]) {
                 }
             }
             else {
-                threadsAssigned.push_back(threadIDs[i]);
-                filesAssigned.push_back(vector<string>());
+                auto it = find(threadsAssigned.begin(),threadsAssigned.end(), threadIDs[i]);
+                if (it == threadsAssigned.end()) {
+                    threadsAssigned.push_back(threadIDs[i]);
+                    filesAssigned.push_back(vector<string>());
+                }
             }
         }
         
